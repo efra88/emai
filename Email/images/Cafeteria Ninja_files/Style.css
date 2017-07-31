@@ -1,0 +1,30 @@
+html,body{
+  height:100%;
+  width:100%;
+}
+aside{
+ background-color:#A3504C;
+ position:fixed;
+ left: 0;
+ top:0;
+ width:30%;
+ height: 100%;
+ display:block;
+}
+aside nav ul{
+ display:block;
+ text-align: left;
+}
+footer{
+
+}
+
+section.home{
+
+}
+section.location{
+
+}
+section.team{
+
+}

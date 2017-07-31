@@ -1,0 +1,80 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#main-bg{
+  min-height: 100%;
+  min-width: 100%;
+  background-image: url(../images/bg-blue.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+
+}
+#main-content{
+}
+
+header{
+  background-color: #1DBEC6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+header .circle{
+  background-color: white;
+  border-radius: 50%;
+  width: 14em;
+  height: 14em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .circle img.hand{
+  background-size: cover;
+  display:flex;
+  width: 10em;
+  height: 10em;
+}
+button{
+  border: 0;
+  padding: 0.5em;
+  background-color: #DDCFAD;
+}
+section.content{
+  background-color: white;
+  text-align: center;
+  padding:1em 0;
+}
+
+section .content img.star {
+  display:flex;
+  width: 10em;
+  height: 10em;
+}
+@keyframes rotate {            /* name of animation: rotate */
+  0% {
+    border-width: 10px;         /* border starts at 10px */
+  }
+  25% {
+    border-width: 3px;          /* border transitions down to 3px */
+  }
+  50% {
+    transform: rotate(115deg);  /* object rotates from 0 - 115° by the halfway point */
+    border-width: 10px;         /* border transitions back to 10px */
+  }
+  75% {
+    border-width: 3px;          /* border transition back to 3px */
+  }
+  100% {
+    border-width: 10px;         /* border transitions back to its original thickness */
+  }
+  #loader {
+  animation: rotate 3s;
+}
+#loader {
+  animation-name: rotate;
+  animation-duration: 3s;
+}
